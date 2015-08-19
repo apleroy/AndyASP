@@ -1,0 +1,14 @@
+@{
+    ViewData["Title"] = "HelloWorld";
+}
+
+<h2>Index</h2>
+
+<p>Hello from our View Template!</p>
+
+<ul>
+    @for (int i = 0; i < 5; i++)
+    {
+        <li>@ViewBag.Message</li>
+    }
+</ul>
